@@ -1,0 +1,530 @@
+[
+{
+    "id" : 1,
+    "slika" : 
+    {
+    "src" : "assets/images/food/product1.jpg",
+    "alt" : "Product1"
+    },
+    "naziv" : "Goldfish color flakes",
+    "code" : 101,
+    "width" : 100,
+    "price" : 1.99,
+    "newPrice" : 0,
+    "brand" : 
+    {
+    "id" : 2,
+    "naziv" : "Tropical"
+    },
+    "type" :
+    {
+    "id": 1,
+    "naziv": "Flakes"
+    },
+    "isNew" : 0
+},
+{
+    "id": 2,
+    "slika": {
+        "src": "assets/images/food/product2.jpg",
+        "alt": "Product2"
+    },
+    "naziv": "D-allio plus",
+    "code": 102,
+    "width": 100,
+    "price": 2.99,
+    "newPrice": 2,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 3,
+    "slika": {
+        "src": "assets/images/food/product3.jpg",
+        "alt": "Product3"
+    },
+    "naziv": "Prime reel formula",
+    "code": 201,
+    "width": 100,
+    "price": 3.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 1,
+        "naziv": "Ocean Nutrition"
+    },
+    "type": {
+        "id": 2,
+        "naziv": "Frozen food"
+    },
+    "isNew": 1
+},
+{
+    "id": 4,
+    "slika": {
+        "src": "assets/images/food/product4.jpg",
+        "alt": "Product4"
+    },
+    "naziv": "Supervit",
+    "code": 103,
+    "width": 100,
+    "price": 4.59,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 5,
+    "slika": {
+        "src": "assets/images/food/product5.jpg",
+        "alt": "Product5"
+    },
+    "naziv": "Cichlid color",
+    "code": 104,
+    "width": 100,
+    "price": 3.59,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 6,
+    "slika": {
+        "src": "assets/images/food/product6.jpg",
+        "alt": "Product6"
+    },
+    "naziv": "Pygmy angel",
+    "code": 202,
+    "width": 100,
+    "price": 3.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 1,
+        "naziv": "Ocean Nutrition"
+    },
+    "type": 
+    {
+        "id": 2,
+        "naziv": "Frozen food"
+    },
+    "isNew": 1
+},
+{
+    "id": 7,
+    "slika": {
+        "src": "assets/images/food/product7.jpg",
+        "alt": "Product7"
+    },
+    "naziv": "Formula two",
+    "code": 203,
+    "width": 100,
+    "price": 3.59,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 1,
+        "naziv": "Ocean Nutrition"
+    },
+    "type": 
+    {
+        "id": 2,
+        "naziv": "Frozen food"
+    },
+    "isNew": 1
+},
+{
+    "id": 8,
+    "slika": {
+        "src": "assets/images/food/product8.jpg",
+        "alt": "Product8"
+    },
+    "naziv": "Pond sticks",
+    "code": 301,
+    "width": 100,
+    "price": 4.99,
+    "newPrice": 2,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 3,
+        "naziv": "Pellets"
+    },
+    "isNew": 0
+},
+{
+    "id": 9,
+    "slika": {
+        "src": "assets/images/food/product9.jpg",
+        "alt": "Product9"
+    },
+    "naziv": "Tropical",
+    "code": 105,
+    "width": 100,
+    "price": 3.49,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 10,
+    "slika": {
+        "src": "assets/images/food/product10.jpg",
+        "alt": "Product10"
+    },
+    "naziv": "Shrimp sticks",
+    "code": 302,
+    "width": 100,
+    "price": 3.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 3,
+        "naziv": "Pellets"
+    },
+    "isNew": 0
+},
+{
+    "id": 11,
+    "slika": {
+        "src": "assets/images/food/product11.jpg",
+        "alt": "Product11"
+    },
+    "naziv": "Crusta sticks",
+    "code": 303,
+    "width": 100,
+    "price": 2.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 3,
+        "naziv": "Pellets"
+    },
+    "isNew": 0
+},
+{
+    "id": 12,
+    "slika": {
+        "src": "assets/images/food/product12.jpg",
+        "alt": "Product12"
+    },
+    "naziv": "Tubivit",
+    "code": 106,
+    "width": 100,
+    "price": 2.49,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 13,
+    "slika": {
+        "src": "assets/images/food/product13.jpg",
+        "alt": "Product13"
+    },
+    "naziv": "Spirulina formula",
+    "code": 204,
+    "width": 100,
+    "price": 2.79,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 1,
+        "naziv": "Ocean Nutrition"
+    },
+    "type": 
+    {
+        "id": 2,
+        "naziv": "Frozen food"
+    },
+    "isNew": 1
+},
+{
+    "id": 14,
+    "slika": {
+        "src": "assets/images/food/product14.jpg",
+        "alt": "Product14"
+    },
+    "naziv": "Cichlid omnivore-small",
+    "code": 304,
+    "width": 100,
+    "price": 1.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 3,
+        "naziv": "Pellets"
+    },
+    "isNew": 0
+},
+{
+    "id": 15,
+    "slika": {
+        "src": "assets/images/food/product15.jpg",
+        "alt": "Product15"
+    },
+    "naziv": "Spirulina flakes",
+    "code": 107,
+    "width": 100,
+    "price": 2.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 16,
+    "slika": {
+        "src": "assets/images/food/product16.jpg",
+        "alt": "Product16"
+    },
+    "naziv": "Bionautic",
+    "code": 305,
+    "width": 100,
+    "price": 2.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 3,
+        "naziv": "Pellets"
+    },
+    "isNew": 0
+},
+{
+    "id": 17,
+    "slika": {
+        "src": "assets/images/food/product17.jpg",
+        "alt": "Product17"
+    },
+    "naziv": "Formula one",
+    "code": 205,
+    "width": 100,
+    "price": 3.59,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 1,
+        "naziv": "Ocean Nutrition"
+    },
+    "type": 
+    {
+        "id": 2,
+        "naziv": "Frozen food"
+    },
+    "isNew": 1
+},
+{
+    "id": 18,
+    "slika": {
+        "src": "assets/images/food/product18.jpg",
+        "alt": "Product18"
+    },
+    "naziv": "Brine shrimp plus",
+    "code": 206,
+    "width": 100,
+    "price": 2.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 1,
+        "naziv": "Ocean Nutrition"
+    },
+    "type": 
+    {
+        "id": 2,
+        "naziv": "Frozen food"
+    },
+    "isNew": 1
+},
+{
+    "id": 19,
+    "slika": {
+        "src": "assets/images/food/product19.jpg",
+        "alt": "Product19"
+    },
+    "naziv": "Ovo-vit",
+    "code": 108,
+    "width": 100,
+    "price": 3.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 20,
+    "slika": {
+        "src": "assets/images/food/product20.jpg",
+        "alt": "Product20"
+    },
+    "naziv": "Cichlid omnivore-med",
+    "code": 306,
+    "width": 100,
+    "price": 3.39,
+    "newPrice": 2,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 3,
+        "naziv": "Pellets"
+    },
+    "isNew": 0
+},
+{
+    "id": 21,
+    "slika": {
+        "src": "assets/images/food/product21.jpg",
+        "alt": "Product21"
+    },
+    "naziv": "D-vital plus",
+    "code": 109,
+    "width": 100,
+    "price": 2.99,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": 
+    {
+        "id": 1,
+        "naziv": "Flakes"
+    },
+    "isNew": 0
+},
+{
+    "id": 22,
+    "slika": {
+        "src": "assets/images/food/product22.jpg",
+        "alt": "Product22"
+    },
+    "naziv": "Angel formula",
+    "code": 207,
+    "width": 100,
+    "price": 4.99,
+    "newPrice": 0,
+    "brand":
+    {
+    "id": 1,
+    "naziv" : "Ocean Nutrition"
+    },
+    "type": 
+    {
+        "id": 2,
+        "naziv": "Frozen food"
+    },
+    "isNew": 1
+},
+{
+    "id": 23,
+    "slika": {
+        "src": "assets/images/food/product23.jpg",
+        "alt": "Product23"
+    },
+    "naziv": "Super goldfish",
+    "code": 307,
+    "width": 100,
+    "price": 3.29,
+    "newPrice": 0,
+    "brand": 
+    {
+        "id": 2,
+        "naziv": "Tropical"
+    },
+    "type": {
+        "id": 3,
+        "naziv": "Pellets"
+    },
+    "isNew": 0
+}
+]

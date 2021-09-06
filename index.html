@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--Meta-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="fish,happy fish, food, flakes, pellets, frozen food, food for fish, fish shop, online fish shop, tropical food, ocean nutrition food" />
+    <meta name="description" content="Happy fish is is online shop for fish food. We have food of most famous brands such as Tropical and Ocean Nutrition." />
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Atma&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Atma|PT+Sans+Narrow&display=swap" rel="stylesheet" />
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+
+    <!--Files-->
+    <link rel="shortcut icon" href="assets/images/favico.ico" />
+    <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/style.min.css" type="text/css" rel="stylesheet" />
+
+    <title>Happy Fish</title>
+</head>
+<body>
+    <div class="container-fluid menu sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand p-0 swing" href="index.html">
+                        <h1 class="m-0 highlight"> Happy <img src="assets/images/logo.png" class="slikaLogo backgroundMenu" alt="Logo" /></h1> 
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <span class="menuLine"> &#47; </span>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#ourProducts">Products</a>
+                                </li>
+                                <span class="menuLine"> &#47; </span>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#order">Make your order</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid menu pb-3">
+        <div class="container" id="headerImages">    
+            <div class="row">
+                <div class="col-sm-12">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="d-flex justify-content-md-around p-0 mt-5 mb-4 flex-lg-row promena487">
+                    <li class="text-center m-3"> 
+                        <i class="fas fa-thumbs-up propI"></i>
+                        <p class="p-2">Free shipping</p> 
+                    </li>
+                    <li class="text-center m-3">
+                        <i class="fas fa-dolly propI"></i>
+                        <p class="p-2">Delivery throughout whole europe</p>
+                    </li>
+                    <li class="text-center m-3"> 
+                        <i class="fas fa-coins propI"></i>
+                        <p class="p-2">Best prices</p> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-12 pl-4 pr-4">
+                <h2 class="mb-3 highlight"> About our food </h2>
+                <h3 class="food mt-4 highlight"> Flake food </h3>
+                <p> Flake Food is the most common of all fish foods and is generally the easiest to use. A variety of flakes are available for specific fish. The ingredients within each flake were chosen based on
+                the natural diet of each type of fish. A flake food is a great basic staple food for all fish, each according to its
+                type.
+                </p>
+                <h3 class="food mt-4 highlight"> Pellets </h3>
+                <p>
+                Pellets come in a variety of sizes but most are for larger fish. Cichlid pellets are common, as well as pellets for
+                larger predatory fish like catfish or sharks. Pellets contain the same basic ingredients as flake foods, just in a
+                different form. Some pellets are designed to float, while others will slowly sink to feed bottom-dwellers.
+                </p>
+                <h3 class="food mt-4 highlight"> Frozen food </h3>
+                <p>
+                Like freeze-dried food, frozen food is in its natural form, with varieties ranging from brine shrimp, krill,
+                mysis, and other basics, to nutritious specialty blends created for specific fish, like Discus formula or Shark formula.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="ourProducts">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 justify-content-start mb-4">
+                <input class="search form-control" id="search" type="text" placeholder="Search">
+            </div>
+            <div class="col-md-5 col-sm-12 justify-content-md-end justify-content-sm-start d-flex pr-md-5 p-sm-0">
+                <div id="mySidenav" class="sidenav">
+                    <div class="headerSide">
+                    <a class="navbar-brand p-0 swing closebtn" href="index.html">
+                        <h1 class="m-0 highlight"> Happy <img src="assets/images/logo.png" class="slikaLogo backgroundMenu" alt="Logo" />
+                        </h1>
+                    </a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                    <div class="mt-4">
+                    <span class="forfilters d-flex highlight"> Sort products by : </span>
+                        <select class="custom-select" id="selectPrice">
+                            <option selected value="0"> Recomended </option>
+                            <option value="1">Price : lowest to highest</option>
+                            <option value="2">Price : highest to lowest</option>
+                            <!-- <option value="3">Three</option> -->
+                        </select>
+                    </div>
+                    <div class="mt-4">
+                        <span class="forfilters d-flex highlight"> Type of food </span>
+                        <div class="d-flex flex-column" id="typeOfFood">
+                    
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <span class="forfilters d-flex highlight"> Manufacturer </span>
+                        <div class="d-flex flex-column" id="brand">
+
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="reset"> Reset filters </a>
+                    </div>
+                </div>
+                
+                <!-- Use any element to open the sidenav -->
+                <span onclick="openNav()" class="sortAndFilter">Sort and filter products</span>
+            </div>
+        </div>
+       
+        <!-- <div class="row forp575">
+            <div class="col-lg-5 col-md-6 col-sm-1 mt-2 mb-4 p575 d-block mx-auto">
+                <span class="forfilters d-flex justify-content-around"> Type of food </span>
+                <div class="d-flex flex-row keepMyFilters" id="typeOfFood">
+
+                </div>
+            </div>
+            <div class="col-lg-2 mt-2 mb-4 col-sm-12 d-flex justify-content-center align-items-center">
+                <a href="#" class="reset" id="reset"> Reset filters </a>
+            </div>
+            <div class="col-lg-5 p575 col-md-6 mt-2 col-sm-12 mb-4">
+                <span class="forfilters d-flex justify-content-around"> Manufacturer </span>
+                <div class="d-flex flex-row keepMyFilters" id="brand">
+               
+                </div>
+            </div>
+        </div>      -->
+    </div>
+
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="row flex-wrap just d-flex " id="products"> 
+                <!-- <div class="borderProducts m-1">
+                    <img src="assets/images/item.jpg" class="text-center" alt="nesto" />
+                
+                    <h2 class="highlight ml-2 mt-1"> D allio plus </h2>
+                    <p class="mb-1">Code to order item:<span class="code"> 67876</span></p>
+                    <p class="mb-2">Weight: <span class="code">10gr</span> </p>
+                    <p class="mb-2"> Complete food for fish and</p>
+                
+                    <div class="d-flex justify-content-between align-content-center">
+                        <span class="p-2 ml-2 cena">20$</span>
+                        <a href="#" class="add text-center mr-2"> Add item </a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!--FORM-->
+    <div class="container" id="order">
+        <div class="row">
+            <div class="col-lg-12">
+            <h2 class="highlight text-center mt-3 mb-4"> Make your order </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form method="POST" action="" id="forma">
+                    <div class="form-row">
+                        <div class="form-group col-md-6 col-sm-6">
+                            <label for="fullName" class="highlight">Full name
+                            </label>
+                            <input type="text" class="form-control" id="fullName" />
+                            <span> </span>
+                        </div>
+                        <div class="form-group col-md-6 col-sm-6">
+                            <label for="phone" class="highlight">Phone number 
+                                <i class="fas fa-info-circle" title="Number must start with + and have between 11 and 14 digits." data-toggle="tooltip" data-placement="bottom"></i>
+                            </label>
+                            <input type="text" class="form-control" id="phone" />
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="streetName" class="highlight">
+                                Name of the street
+                                <i class="fas fa-info-circle" title="Street name must be full name of your street without abbrevations." data-toggle="tooltip" data-placement="bottom"></i>
+                            </label>
+                            <input type="text" class="form-control" id="streetName" />
+                            <span> </span>
+                        </div>
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="house" class="highlight">
+                                House number
+                                <i class="fas fa-info-circle" title="House number must be between 1 and 5 digits." data-toggle="tooltip" data-placement="bottom"></i>
+                            </label>
+                            <input type="text" class="form-control" id="house" />
+                            <span> </span>
+                        </div>
+                        <div class="form-group col-md-2 col-sm-6">
+                            <label for="flat" class="highlight">
+                                Flat number
+                                <i class="fas fa-info-circle" title="Flat number must be between 1 and 3 digits." data-toggle="tooltip" data-placement="bottom"></i>
+                            </label>
+                            <input type="text" class="form-control" id="flat" />
+                            <span> </span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="state" class="highlight">
+                                State
+                                <i class="fas fa-info-circle" title="Name of state must be full name of your state without abbrevations." data-toggle="tooltip" data-placement="bottom"></i>
+                            </label>
+                            <input type="text" class="form-control" id="state" />
+                            <span> </span>
+                        </div>
+                        <div class="form-group col-md-4 col-sm-6">
+                            <label for="city" class="highlight">
+                                City
+                                <i class="fas fa-info-circle" title="Name of city must be full name of your city/countryside." data-toggle="tooltip" data-placement="bottom"></i>
+                            </label>
+                            <input type="text" class="form-control" id="city" />
+                            <span> </span>
+                        </div>
+                        <div class="form-group col-md-2 col-sm-6">
+                            <label for="zipCode" class="highlight">
+                                Zip
+                                <i class="fas fa-info-circle" title="Zip code must be between 4 and 5 digits." data-toggle="tooltip" data-placement="bottom"></i>
+                            </label>
+                            <input type="text" class="form-control" id="zipCode" />
+                            <span> </span>
+                        </div>
+                    </div>
+                    <div class="form-row" id="addedProducts">
+                    
+                    </div>
+                    <button class="btn dugme mt-3" id="check" >Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid zuto">
+        <div class="container pt-3 mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center">
+                <p class="m-0 highlight futer575 underline"> Follow us on</p>
+                    <ul class="d-flex flex-row p-0 justify-content-around" id="socials"> 
+                        <!-- <li> <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook networksI ml-5"></i> </a></li>
+                        <li> <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram networksI"></i> </a></li>
+                        <li> <a href="https://twitter.com/" target="_blank"> <i class="fab fa-twitter-square networksI mr-5"></i> </a> </li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center">
+                    <p class="m-0 highlight futer575 underline pt-1"> Useful links </p>
+                    <ul class="d-flex flex-column p-0">
+                        <li> <a href="#" target="_blank" class="futer575" id="author"> Author </i> </a></li>
+                        <li> <a href="dokumentacija.pdf" target="_blank" class="futer575"> Documentation </i> </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-sm-center p498">
+                    <p class="padding575 m-0"><i class="fas fa-phone-volume networksI specific"></i>  Call center : <span class="hoverEff">  +44 20 7234 3456 </span> </p>
+                    <p class="ml-3 padding575"> Work hour : <span class="hoverEff"> everyday from 9am to 7pm </span></p>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-12 text-center">
+                    <p class="mt-2 mb-2">Copyright © Gabrijela Matovic 2020</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bodyOverlay" style="display: block;opacity: 1;"></div>
+
+    <!-- Sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.min.js"></script>
+</body>
+</html>
